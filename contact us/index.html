@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contact-container">
+        <h1 style="font-family:monospace" >CONTACT</h1>
+        <div class="start">
+            <div class="heading">
+                <h1>Let’s get started…</h1>
+
+            </div>
+            <div class="desc">
+                Fill out the form below or send us an email at
+                info@fotographiya.com to set up an introductory call
+            </div>
+        </div>
+        
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="need">Brief us on what you need...</label>
+                <div class="button-group">
+                    <button type="button" id="wedding" name="need" value="Wedding">Wedding</button>
+                    <button type="button" id="baby-shower" name="need" value="Baby Shower">Baby Shower</button>
+                    <button type="button" id="anniversary" name="need" value="Anniversary Shoot">Anniversary Shoot</button>
+                    <button type="button" id="event" name="need" value="Event">Event</button>
+                    <button type="button" id="pre-wedding" name="need" value="Pre-Wedding">Pre-Wedding</button>
+                    <button type="button" id="birthday" name="need" value="Birthday Party">Birthday Party</button>
+                    <button type="button" id="others" name="need" value="Others">Others</button>
+                </div>
+            </div>
+        
+            <div class="form-group">
+                <label for="customer-vendor">Customer / Vendor</label>
+                <select id="customer-vendor" name="customer-vendor">
+                    <option value="customer">Customer</option>
+                    <option value="vendor">Vendor</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <!-- <label for="name">Introduce yourself</label> -->
+                 <h1>Introduce yourself</h1>
+
+                <label for="full_name">Full name*</label>
+                <input type="text" id="name" name="name" placeholder="Your Full name" required>
+            
+                <label for="email">Email*</label>
+                <input type="email" id="email" name="email" placeholder="Your email address" required>
+
+                <label for="message">Message*</label>
+                <textarea id="message" name="message" placeholder="Message" required></textarea>
+            </div>
+            <p>Please read our <span>privacy policy</span> and <span>cookies policy</span>  so you understand how we collect and use your personal data.
+            </p>
+            <button type="submit">Send</button>
+        </form>
+        <div class="contact-info">
+            <h3 class="hear-us">Want to hear us talk?</h3>
+            <p>Send us an email: <a href="mailto:info@photography.com">info@photography.com</a></p>
+            <h3 class="know-more">Curious to know more?</h3>
+            <p>If there's something that is not listed, please let us know or drop us an email: <a href="mailto:hello@photography.com">hello@photography.com</a></p>
+        </div>
+        <div class="faq">
+            <h3 class="faq-qns">Frequently Asked Questions</h3>
+            <details>
+                <summary class="sum-heading">What services do you offer?</summary>
+                <p>We offer a variety of services including wedding photography, event photography, and more.</p>
+            </details>
+            <details>
+                <summary class="sum-heading">What services do you offer?</summary>
+                <p>We offer a variety of services including wedding photography, event photography, and more.</p>
+            </details>
+            <details>
+                <summary class="sum-heading">What services do you offer?</summary>
+                <p>We offer a variety of services including wedding photography, event photography, and more.</p>
+            </details>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
